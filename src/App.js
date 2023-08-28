@@ -7,23 +7,23 @@ import Education from './components/Education';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import { ChakraProvider } from '@chakra-ui/react';
-import { Divider } from '@chakra-ui/react'
+import { Divider , Spacer} from '@chakra-ui/react'
 const App = () => {
   return (
     <div >
       <ChakraProvider>
       <Simple />
-      <Divider />
+      <Spacer height={8} />
      <About/>
-     <Divider />
+     <Spacer height={500} />
      <Skills/>
-     <Divider />
+     <Spacer height={700} />
      <Education/>
-     <Divider />
+     <Spacer height={8} />
      <Project/>
-     <Divider />
+     <Spacer height={8} />
      <Contact  />
-     <Divider />
+     <Spacer height={8} />
    </ChakraProvider>
 
     </div>

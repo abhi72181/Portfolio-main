@@ -28,7 +28,7 @@ const Education = () => {
   const isSmallerScreen = useBreakpointValue({ base: true, md: false });
 
   return (
-    <Box id="education" h="100vh" mt={8} w="100%" textAlign="center">
+    <Box id="education" h="100vh"  mt={8} w="100%" textAlign="center">
       <Text fontSize="xl" fontWeight="bold" mb={4}>
         Education
       </Text>
